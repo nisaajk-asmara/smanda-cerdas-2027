@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Festival Smanda Cerdas 2027
 
-## Getting Started
+Website Festival Smanda Cerdas 2027 dibuat dengan Next.js 15 App Router, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, dan Lucide React. Setiap bagian brosur disajikan sebagai section website yang responsif; poster tidak digunakan sebagai gambar halaman.
 
-First, run the development server:
+## Menjalankan aplikasi
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Server development berjalan di [http://localhost:2000](http://localhost:2000).
+Untuk produksi, atur `NEXT_PUBLIC_SITE_URL` ke URL publik website agar URL gambar Open Graph sesuai.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pemeriksaan
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run typecheck
+npm run build
+npm start
+```
 
-## Learn More
+Production server juga menggunakan port `2000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Struktur
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+src/
+  app/                    # App Router, metadata, dan stylesheet global
+  components/
+    festival/             # Hero, agenda, kompetisi, registrasi, navigasi, footer
+    ui/                   # Komponen shadcn/ui
+  lib/                    # Utilitas bersama
+public/
+  images/                 # Foto lokal untuk galeri dan kartu acara
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Foto festival pada starter ini merupakan foto ilustrasi lokal. Ganti dengan dokumentasi resmi sekolah sebelum publikasi. Data acara dan kontak dirangkum dari brosur; detail tanggal pelaksanaan ditampilkan sebagai Januari 2027.
