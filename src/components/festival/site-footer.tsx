@@ -21,7 +21,7 @@ export function SiteFooter() {
             <div className="footer-contact-list">
               <a
                 className="footer-contact"
-                href={`https://wa.me/${festivalDetails.whatsapp}`}
+                href={festivalDetails.whatsappContactUrl}
                 rel="noreferrer"
                 target="_blank"
               >
@@ -56,12 +56,12 @@ export function SiteFooter() {
                   level="M"
                   marginSize={2}
                   size={136}
-                  title="Kode QR untuk menghubungi panitia Festival Smanda Cerdas 2027"
-                  value={festivalDetails.registrationUrl}
+                  title="Kode QR untuk formulir pendaftaran Festival Smanda Cerdas 2027"
+                  value={festivalDetails.registrationFormUrl}
                 />
               </div>
-              <strong>Scan untuk bertanya</strong>
-              <span>Terhubung langsung ke WhatsApp panitia.</span>
+              <strong>Scan untuk mendaftar</strong>
+              <span>Buka formulir pendaftaran Festival Smanda Cerdas 2027.</span>
             </div>
           </div>
 

@@ -154,8 +154,10 @@ export function PrincipalWelcome() {
                 src="/images/smanda-principal.jpg"
               />
             </div>
-            <p className="welcome-card__photo-note">SMAN 2 Lubuklinggau</p>
-            <span className="welcome-card__role">Kepala sekolah</span>
+            <div className="welcome-card__profile-details">
+              <p className="welcome-card__photo-note">SMAN 2 Lubuklinggau</p>
+              <span className="welcome-card__role">Kepala sekolah</span>
+            </div>
           </div>
           <div className="welcome-card__content">
             <p className="eyebrow">

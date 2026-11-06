@@ -13,13 +13,13 @@ export const festivalDetails = {
   address:
     "Jl. Air Kuti, Kec. Lubuk Linggau Timur I, Kota Lubuklinggau, Sumatera Selatan",
   audience: "Siswa SMP se-Kota Lubuklinggau",
-  whatsapp: "6281532575730",
-  whatsappDisplay: "+62 815-3257-5730 (Emma)",
+  whatsappDisplay: "+62 800-0000-1111 (Panitia)",
+  whatsappContactUrl:
+    "https://wa.me/6282285344045?text=Halo%20Panitia%20Festival%20Smanda%20Cerdas%202027%2C%20saya%20ingin%20bertanya.",
+  registrationFormUrl: "https://forms.gle/nsRCHguomxMEU2z37",
   instagram: "sman2_lubuklinggau",
   principal: "Zulkarnain, M.Pd., Mat.",
   principalRole: "Kepala SMA Negeri 2 Kota Lubuklinggau",
-  registrationUrl:
-    "https://wa.me/6281532575730?text=Halo%20Panitia%20Festival%20Smanda%20Cerdas%202027%2C%20saya%20ingin%20bertanya%20tentang%20pendaftaran.",
   instagramUrl: "https://www.instagram.com/sman2_lubuklinggau/",
   mapsUrl:
     "https://maps.google.com/?q=SMAN+2+Kota+Lubuklinggau+Sumatera+Selatan",

@@ -35,7 +35,7 @@ export function MobileNavigation({
       ))}
       <a
         className="button button--nav"
-        href={festivalDetails.registrationUrl}
+        href={festivalDetails.registrationFormUrl}
         onClick={onNavigate}
         rel="noreferrer"
         target="_blank"

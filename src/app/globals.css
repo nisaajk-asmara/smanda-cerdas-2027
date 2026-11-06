@@ -815,6 +815,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 0.6rem;
 }
 
 .welcome-card__portrait {
@@ -834,14 +835,15 @@ a:focus-visible {
 }
 
 .welcome-card__photo-note {
-  margin: 0.65rem 0 0;
+  margin: 0;
   color: #8b95a4;
   font-size: 0.67rem;
+  line-height: 1.4;
+  text-wrap: balance;
 }
 
 .welcome-card__role {
   position: relative;
-  margin-top: 0.6rem;
   border: 1px solid #f4d872;
   border-radius: 999px;
   background: #fff9e6;
@@ -851,6 +853,13 @@ a:focus-visible {
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.welcome-card__profile-details {
+  display: grid;
+  justify-items: center;
+  gap: 0.45rem;
+  min-width: 0;
 }
 
 .welcome-card__content {
@@ -1791,21 +1800,24 @@ a:focus-visible {
   }
 
   .welcome-card__profile {
-    align-items: flex-start;
-    padding-left: 0.35rem;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.9rem;
+    padding-left: 0;
   }
 
   .welcome-card__portrait {
-    width: 7rem;
+    width: 6.25rem;
+    flex: 0 0 auto;
+  }
+
+  .welcome-card__profile-details {
+    justify-items: start;
   }
 
   .welcome-card__role {
-    margin-top: -0.3rem;
-    margin-left: 0.25rem;
-  }
-
-  .welcome-card__photo-note {
-    margin-left: 0.4rem;
+    max-width: 100%;
+    padding-inline: 0.65rem;
   }
 
   .section-heading-row {

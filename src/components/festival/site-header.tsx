@@ -61,7 +61,7 @@ export function SiteHeader() {
           ))}
           <a
             className="button button--nav"
-            href={festivalDetails.registrationUrl}
+            href={festivalDetails.registrationFormUrl}
             onClick={() => setMenuOpen(false)}
             rel="noreferrer"
             target="_blank"

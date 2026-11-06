@@ -114,7 +114,7 @@ export function StudentCompetitions() {
         </div>
         <a
           className="text-link competitions-link"
-          href={festivalDetails.registrationUrl}
+          href={festivalDetails.registrationFormUrl}
           rel="noreferrer"
           target="_blank"
         >

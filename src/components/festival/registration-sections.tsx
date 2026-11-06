@@ -20,7 +20,7 @@ export function RegistrationSteps() {
             />
             <a
               className="registration-panel__help"
-              href={festivalDetails.registrationUrl}
+              href={festivalDetails.whatsappContactUrl}
               rel="noreferrer"
               target="_blank"
             >
@@ -70,11 +70,11 @@ export function RegistrationCallout() {
           </div>
           <a
             className="button button--navy button--large"
-            href={festivalDetails.registrationUrl}
+            href={festivalDetails.registrationFormUrl}
             rel="noreferrer"
             target="_blank"
           >
-            Daftar via WhatsApp <ArrowRight aria-hidden="true" size={18} />
+            Daftar melalui Google Form <ArrowRight aria-hidden="true" size={18} />
           </a>
         </div>
       </div>

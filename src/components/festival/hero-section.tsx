@@ -48,7 +48,7 @@ export function HeroSection() {
             <div className="hero__actions">
               <a
                 className="button button--gold"
-                href={festivalDetails.registrationUrl}
+                href={festivalDetails.registrationFormUrl}
                 rel="noreferrer"
                 target="_blank"
               >
