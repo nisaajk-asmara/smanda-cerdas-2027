@@ -15,7 +15,7 @@ export const festivalDetails = {
   audience: "Siswa SMP se-Kota Lubuklinggau",
   whatsappDisplay: "+62 800-0000-1111 (Panitia)",
   whatsappContactUrl:
-    "https://wa.me/6282285344045?text=Halo%20Panitia%20Festival%20Smanda%20Cerdas%202027%2C%20saya%20ingin%20bertanya.",
+    "https://wa.me/6282285344045?text=Halo%20Panitia%20Festival%20SMANDA%20CERDAS%202027%2C%20saya%20ingin%20bertanya.",
   registrationFormUrl: "https://forms.gle/nsRCHguomxMEU2z37",
   instagram: "sman2_lubuklinggau",
   principal: "Zulkarnain, M.Pd., Mat.",
@@ -37,13 +37,13 @@ export type FestivalActivity = {
 
 export const activities: FestivalActivity[] = [
   {
-    title: "Bazar Smanda",
+    title: "Bazar SMANDA",
     description:
       "Jelajahi stan kewirausahaan siswa dengan sajian kuliner dan produk kreatif.",
     label: "Kuliner & kreatif",
     icon: Store,
     image: "/images/smanda-bazaar.jpg",
-    imageAlt: "Siswa melayani pengunjung di stan bazar Smanda",
+    imageAlt: "Siswa melayani pengunjung di stan bazar SMANDA",
     accent: "gold",
   },
   {
@@ -69,7 +69,7 @@ export type FestivalCompetition = {
 
 export const competitions: FestivalCompetition[] = [
   {
-    title: "Lomba Cerdas Cermat",
+    title: "Lomba CERDAS Cermat",
     description:
       "Uji wawasan sains, matematika, sosial, dan pengetahuan umum beregu.",
     category: "Sains & nalar",

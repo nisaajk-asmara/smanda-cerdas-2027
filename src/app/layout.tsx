@@ -22,24 +22,24 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Festival Smanda Cerdas 2027",
-    template: "%s | Festival Smanda Cerdas 2027",
+    default: "Festival SMANDA CERDAS 2027",
+    template: "%s | Festival SMANDA CERDAS 2027",
   },
   description:
     "Festival pendidikan, seni, bazar, Creative Expo, dan kompetisi pelajar SMP se-Kota Lubuklinggau. Januari 2027 di SMAN 2 Kota Lubuklinggau.",
   keywords: [
-    "Festival Smanda Cerdas 2027",
+    "Festival SMANDA CERDAS 2027",
     "SMAN 2 Lubuklinggau",
     "kompetisi SMP Lubuklinggau",
     "bazar sekolah",
     "Creative Expo",
   ],
   openGraph: {
-    title: "Festival Smanda Cerdas 2027",
+    title: "Festival SMANDA CERDAS 2027",
     description:
       "Kreativitas, prestasi, dan inovasi dalam satu perayaan besar. Januari 2027 di SMAN 2 Kota Lubuklinggau.",
     locale: "id_ID",
-    siteName: "Festival Smanda Cerdas 2027",
+    siteName: "Festival SMANDA CERDAS 2027",
     type: "website",
     images: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Festival Smanda Cerdas 2027",
+    title: "Festival SMANDA CERDAS 2027",
     description:
       "Kreativitas, prestasi, dan inovasi dalam satu perayaan besar.",
     images: ["/images/smanda-school-event.jpg"],

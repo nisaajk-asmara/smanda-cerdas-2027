@@ -28,7 +28,7 @@ export function HeroSection() {
             </p>
             <h1 id="hero-title">
               Festival
-              <span className="hero__title-highlight">Smanda Cerdas</span>
+              <span className="hero__title-highlight">SMANDA CERDAS</span>
               <span className="hero__year">2027</span>
             </h1>
             <p className="hero__description">

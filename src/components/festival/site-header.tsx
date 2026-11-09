@@ -24,7 +24,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container site-header__inner">
         <Link
-          aria-label="Festival Smanda Cerdas 2027 — beranda"
+          aria-label="Festival SMANDA CERDAS 2027 — beranda"
           className="wordmark"
           href="/"
           onClick={() => setMenuOpen(false)}

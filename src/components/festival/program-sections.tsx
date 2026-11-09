@@ -42,7 +42,7 @@ export function FestivalAgenda() {
                   </div>
                 )}
                 <div className="agenda-card__body">
-                  <span className="card-kicker">{activity.image ? "Festival Smanda" : activity.label}</span>
+                  <span className="card-kicker">{activity.image ? "Festival SMANDA" : activity.label}</span>
                   <h3>{activity.title}</h3>
                   <p>{activity.description}</p>
                   <Icon aria-hidden="true" className="agenda-card__accent-icon" size={20} />

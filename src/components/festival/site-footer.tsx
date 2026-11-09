@@ -13,7 +13,7 @@ export function SiteFooter() {
                 S
               </span>
               <div>
-                <strong>Festival Smanda Cerdas 2027</strong>
+                <strong>Festival SMANDA CERDAS 2027</strong>
                 <p>Kreativitas, prestasi, dan inovasi dalam satu perayaan besar.</p>
               </div>
             </div>
@@ -56,19 +56,19 @@ export function SiteFooter() {
                   level="M"
                   marginSize={2}
                   size={136}
-                  title="Kode QR untuk formulir pendaftaran Festival Smanda Cerdas 2027"
+                  title="Kode QR untuk formulir pendaftaran Festival SMANDA CERDAS 2027"
                   value={festivalDetails.registrationFormUrl}
                 />
               </div>
               <strong>Scan untuk mendaftar</strong>
-              <span>Buka formulir pendaftaran Festival Smanda Cerdas 2027.</span>
+              <span>Buka formulir pendaftaran Festival SMANDA CERDAS 2027.</span>
             </div>
           </div>
 
           <div className="footer-bottom">
             <span><School aria-hidden="true" size={15} /> Penyelenggara: <strong>{festivalDetails.school}</strong></span>
             <span><span aria-hidden="true" className="footer-bottom__dot" /> Peserta: <strong>{festivalDetails.audience}</strong></span>
-            <span className="footer-copyright">© Festival Smanda Cerdas 2027</span>
+            <span className="footer-copyright">© Festival SMANDA CERDAS 2027</span>
           </div>
         </div>
       </div>

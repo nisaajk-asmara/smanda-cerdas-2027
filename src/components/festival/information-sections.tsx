@@ -84,7 +84,7 @@ export function SchoolGallery() {
       <div className="container">
         <SectionHeading
           description="Kenali semangat belajar, berkreasi, dan bertumbuh bersama."
-          eyebrow="Cerita dari Smanda"
+          eyebrow="Cerita dari SMANDA"
           id="gallery-section-title"
           title="Ruang tumbuh untuk setiap talenta."
         />
@@ -132,7 +132,7 @@ export function SchoolGallery() {
             </figcaption>
           </figure>
         </div>
-        <p className="gallery-note">Dokumentasi kegiatan di lingkungan Smanda.</p>
+        <p className="gallery-note">Dokumentasi kegiatan di lingkungan SMANDA.</p>
       </div>
     </section>
   );
@@ -170,7 +170,7 @@ export function PrincipalWelcome() {
             <div className="quote-card">
               <Quote aria-hidden="true" className="quote-card__icon" size={23} />
               <p>
-                Festival Smanda Cerdas 2027 menjadi ruang sinergi bagi generasi
+                Festival SMANDA CERDAS 2027 menjadi ruang sinergi bagi generasi
                 penerus untuk menumbuhkan sportivitas, jiwa wirausaha, serta
                 kecintaan terhadap seni Nusantara.
               </p>

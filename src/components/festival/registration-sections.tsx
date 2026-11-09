@@ -65,7 +65,7 @@ export function RegistrationCallout() {
             </h2>
             <p>
               Ajak teman satu tim, siapkan karya, dan rayakan ide terbaikmu
-              bersama Smanda.
+              bersama SMANDA.
             </p>
           </div>
           <a
